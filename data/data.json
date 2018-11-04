@@ -1,0 +1,66 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "I live in Union Square 23, San Francisco",
+        "intent": "identify_street_names",
+        "entities": [
+          {
+            "start": 10,
+            "end": 40,
+            "value": "Union Square 23, San Francisco",
+            "entity": "STREET_NAME"
+          }
+        ]
+      },
+      {
+        "text": "My street address is Union Square 23, San Francisco",
+        "intent": "identify_street_names",
+        "entities": [
+          {
+            "start": 21,
+            "end": 51,
+            "value": "Union Square 23, San Francisco",
+            "entity": "STREET_NAME"
+          }
+        ]
+      },
+      {
+        "text": "I live near University Road, Karachi",
+        "intent": "identify_street_names",
+        "entities": [
+          {
+            "start": 12,
+            "end": 36,
+            "value": "University Road, Karachi",
+            "entity": "STREET_NAME"
+          }
+        ]
+      },
+      {
+        "text": "I live in Woodbridge Lane Detroit, MI 48226",
+        "intent": "identify_street_names",
+        "entities": [
+          {
+            "start": 10,
+            "end": 43,
+            "value": "Woodbridge Lane Detroit, MI 48226",
+            "entity": "STREET_NAME"
+          }
+        ]
+      },
+      {
+        "text": "My address is Beechwood Drive Pittsburgh, PA 15212",
+        "intent": "identify_street_names",
+        "entities": [
+          {
+            "start": 14,
+            "end": 50,
+            "value": "Beechwood Drive Pittsburgh, PA 15212",
+            "entity": "STREET_NAME"
+          }
+        ]
+      }
+    ]
+  }
+}
